@@ -200,3 +200,58 @@ nav {
   font-weight: 500;
   line-height: 30px;
 }
+
+/* feature container */
+
+.feature_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 37px 37px 0px 37px;
+}
+
+.feature_img_container {
+  width: 40%;
+  position: relative;
+}
+
+.feature_img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.float_img {
+position: absolute;
+width: 300px;
+bottom: -150px;
+right: -150px;
+}
+
+.feature_details_container {
+  width: 60%;
+  padding-left: 180px;
+  padding-right: 50px;
+}
+
+.feature_heading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #0B0223;
+}
+
+.special_feature_heading {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.feature_text {
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* career section */
