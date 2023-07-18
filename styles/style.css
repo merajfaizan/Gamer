@@ -255,3 +255,63 @@ background-clip: text;
 }
 
 /* career section */
+
+.career_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  padding: 0px 37px 0px 37px;
+  background-color: #F948B2;
+}
+
+.career_details {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  }
+
+.career_heading {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.career_desc {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.career_position_container {
+display: flex;
+justify-content: space-between;
+}
+
+.career_position_location {
+text-align: right;
+}
+
+.career_btn {
+  padding: 21px 40px;
+  border: none;
+  border-radius: 48px;
+  background: #FFF;
+}
+
+.career_position_container > ul {
+  list-style: none;
+  padding-left: 0px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.career_img {
+  width: 100%;
+}
+
+/* games section */
