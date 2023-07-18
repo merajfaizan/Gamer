@@ -1,7 +1,11 @@
 * {
   font-family: 'Work Sans', sans-serif;
-  margin: 0px auto;
   box-sizing: border-box;
+}
+
+body {
+  margin: 0px auto;
+  max-width: 1440px;
 }
 
 /* Navigation Style */
@@ -77,4 +81,75 @@ nav {
 .social_icon {
   width: 33.916px;
   font-size: 25px;
+}
+
+/* Hero section css */
+
+.hero_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 37px 37px 0px 37px;
+}
+
+.hero_details {
+  width: 50%;
+  background-image: url(../images/Group\ 14.png);
+  background-repeat: no-repeat;
+  background-position: start top;
+  background-size: contain;
+}
+
+.hero_heading {
+  color: #0B0223;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.special_heading {
+  font-size: 95px;
+  font-weight: 800;
+  margin: 0px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero_features_text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hero_btn_container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  column-gap: 20px;
+} 
+
+.sign_in_btn , .go_rogue_btn {
+  color: white;
+  padding: 21px 40px;
+  border: none;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.go_rogue_btn {
+  background: #4EC5F7;
+}
+
+.hero_img_container {
+  width: 50%;
+}
+
+.hero_img {
+  display: inline-block;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
 }
