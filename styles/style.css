@@ -315,3 +315,27 @@ text-align: right;
 }
 
 /* games section */
+
+.games_container {
+  padding: 50px 37px 50px 37px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.game_card {
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.game_card:hover {
+  border: 1px solid #FF42A5;
+}
+
+/* footer */
