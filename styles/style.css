@@ -363,6 +363,7 @@ text-align: right;
   gap: 20px;
   padding: 10px;
   border-radius: 50px;
+  border: none;
 }
 
 .game_card:hover {
